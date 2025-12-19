@@ -1,13 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import SearchBar from "@/components/SearchBar";
 import FiltersSidebar from "@/components/FiltersSidebar";
+import FiltersSidebarSkeleton from "@/components/FiltersSidebarSkeleton";
+import SearchBarSkeleton from "@/components/SearchBarSkeleton";
 import ResultsGrid from "@/components/ResultsGrid";
 import carsData from "@/data/cars.json";
 
 export default function Home() {
+  // Loading state for skeleton
+  const [loading, setLoading] = useState(true);
+
   // State for filters
   const [filters, setFilters] = useState({
     carType: [],
@@ -15,28 +20,39 @@ export default function Home() {
     transmission: [],
     deposit: [],
     rentalCompany: [],
-    cards: [], // Added for cards accepted filter
+    cards: [],
   });
+
+  // Simulate loading (for skeleton UI)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 800); // adjust timing if needed
+
+    return () => clearTimeout(timer);
+  }, []);
 
   // Filtered cars based on filters
   const filteredCars = carsData.filter((car) => {
-    // Car Type filter
-    if (filters.carType.length && !filters.carType.includes(car.type))
+    // Car Type
+    if (filters.carType.length && !filters.carType.includes(car.type)) {
       return false;
+    }
 
-    // Seats filter
-    // Passengers filter (>= selected seats)
-    if (filters.seats.length && !filters.seats.some((s) => car.seats >= s))
+    // Passengers (>= selected)
+    if (filters.seats.length && !filters.seats.some((s) => car.seats >= s)) {
       return false;
+    }
 
-    // Transmission filter
+    // Transmission
     if (
       filters.transmission.length &&
       !filters.transmission.includes(car.transmission)
-    )
+    ) {
       return false;
+    }
 
-    // Deposit filter
+    // Deposit
     if (filters.deposit.length) {
       const depositMatch = filters.deposit.some((range) => {
         if (range === "2000+") return car.deposit >= 2000;
@@ -48,14 +64,15 @@ export default function Home() {
       if (!depositMatch) return false;
     }
 
-    // Rental Company filter
+    // Rental Company
     if (
       filters.rentalCompany.length &&
       !filters.rentalCompany.includes(car.company)
-    )
+    ) {
       return false;
+    }
 
-    // Cards Accepted filter
+    // Cards Accepted
     if (filters.cards.length) {
       const cardMatch = filters.cards.some((card) =>
         car.cards_accepted.includes(card)
@@ -66,21 +83,31 @@ export default function Home() {
     return true;
   });
 
+  // Results count for sidebar
+  const resultsCount = filteredCars.length;
+
   return (
     <>
       <Header />
 
       <main className="max-w-7xl mx-auto py-6 grid grid-cols-12 gap-6">
+        {/* Sidebar */}
         <aside className="col-span-12 lg:col-span-3">
-          <FiltersSidebar
-            filters={filters}
-            setFilters={setFilters}
-            resultsCount={filteredCars.length} // pass dynamic count
-          />
+          {loading ? (
+            <FiltersSidebarSkeleton />
+          ) : (
+            <FiltersSidebar
+              filters={filters}
+              setFilters={setFilters}
+              resultsCount={resultsCount}
+            />
+          )}
         </aside>
 
+        {/* Results */}
         <section className="col-span-12 lg:col-span-9">
-          <SearchBar />
+          {loading ? <SearchBarSkeleton /> : <SearchBar />}
+
           <ResultsGrid cars={filteredCars} />
         </section>
       </main>

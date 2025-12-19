@@ -12,7 +12,7 @@ export default function CarCard({ car }) {
   } = car;
 
  return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-5">
+    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-5 font-lexend">
       {/* Header */}
       <div className="flex justify-between items-start mb-4">
         <div>
