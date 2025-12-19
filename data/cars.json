@@ -1,0 +1,1997 @@
+[
+  {
+    "id": 1,
+    "model": "Nissan Micra",
+    "type": "Luxury",
+    "price_per_day": 77.1,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Euro Car",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 2,
+    "model": "Honda Civic",
+    "type": "Economy",
+    "price_per_day": 144.28,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Euro Car",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 3,
+    "model": "Nissan Micra",
+    "type": "Compact",
+    "price_per_day": 174.44,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Flex Ways",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 4,
+    "model": "Jeep Compass",
+    "type": "Economy",
+    "price_per_day": 162.35,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Abby Cars",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 5,
+    "model": "Peugeot 208",
+    "type": "Small Car",
+    "price_per_day": 45.7,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 6,
+    "model": "Jeep Compass",
+    "type": "Luxury",
+    "price_per_day": 173.44,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Euro Car",
+    "deposit": 400,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 7,
+    "model": "Toyota Corolla",
+    "type": "SUV",
+    "price_per_day": 60.43,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Abby Cars",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 8,
+    "model": "Mercedes A-Class",
+    "type": "Luxury",
+    "price_per_day": 50.24,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 9,
+    "model": "Toyota Corolla",
+    "type": "Compact",
+    "price_per_day": 178.23,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 600,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 10,
+    "model": "Suzuki Swift",
+    "type": "Premium",
+    "price_per_day": 76.96,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 11,
+    "model": "Fiat Panda",
+    "type": "Luxury",
+    "price_per_day": 78.76,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 12,
+    "model": "Hyundai i10",
+    "type": "SUV",
+    "price_per_day": 146.25,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 13,
+    "model": "Mazda 3",
+    "type": "Small Car",
+    "price_per_day": 113.76,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Auto Union",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 14,
+    "model": "Seat Ibiza",
+    "type": "Premium",
+    "price_per_day": 176.92,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Abby Cars",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 15,
+    "model": "Peugeot 208",
+    "type": "Premium",
+    "price_per_day": 144.28,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Auto Union",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 16,
+    "model": "Mini Cooper",
+    "type": "Luxury",
+    "price_per_day": 125.88,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 17,
+    "model": "Hyundai i10",
+    "type": "Premium",
+    "price_per_day": 157.95,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 18,
+    "model": "Peugeot 208",
+    "type": "Luxury",
+    "price_per_day": 45.17,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Abby Cars",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 19,
+    "model": "Audi Q3",
+    "type": "Compact",
+    "price_per_day": 102.09,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 20,
+    "model": "Peugeot 208",
+    "type": "Premium",
+    "price_per_day": 176.27,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Flex Ways",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 21,
+    "model": "Mercedes A-Class",
+    "type": "Small Car",
+    "price_per_day": 64.22,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 22,
+    "model": "Skoda Octavia",
+    "type": "Economy",
+    "price_per_day": 164.73,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Car Gliny",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 23,
+    "model": "Seat Ibiza",
+    "type": "Compact",
+    "price_per_day": 81.85,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 24,
+    "model": "Mazda 3",
+    "type": "Luxury",
+    "price_per_day": 109.28,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 25,
+    "model": "Suzuki Swift",
+    "type": "Small Car",
+    "price_per_day": 128.62,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Car Gliny",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 26,
+    "model": "Mini Cooper",
+    "type": "Economy",
+    "price_per_day": 170.62,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Car Gliny",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 27,
+    "model": "Skoda Octavia",
+    "type": "Premium",
+    "price_per_day": 120.84,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 28,
+    "model": "Nissan Micra",
+    "type": "Luxury",
+    "price_per_day": 75.36,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 29,
+    "model": "BMW X1",
+    "type": "SUV",
+    "price_per_day": 86.38,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Green Motion",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 30,
+    "model": "Jeep Compass",
+    "type": "Economy",
+    "price_per_day": 101.29,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 31,
+    "model": "Jeep Compass",
+    "type": "Small Car",
+    "price_per_day": 102.8,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 32,
+    "model": "Renault Clio",
+    "type": "SUV",
+    "price_per_day": 155.54,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 33,
+    "model": "Nissan Micra",
+    "type": "Small Car",
+    "price_per_day": 126.19,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Euro Car",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 34,
+    "model": "Mini Cooper",
+    "type": "Economy",
+    "price_per_day": 100.71,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 35,
+    "model": "Audi Q3",
+    "type": "SUV",
+    "price_per_day": 154.97,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Flex Ways",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 36,
+    "model": "Seat Ibiza",
+    "type": "Luxury",
+    "price_per_day": 112.01,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 37,
+    "model": "BMW X1",
+    "type": "Luxury",
+    "price_per_day": 71.01,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Car Gliny",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 38,
+    "model": "Volkswagen Golf",
+    "type": "Economy",
+    "price_per_day": 117.28,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Euro Car",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 39,
+    "model": "Volkswagen Golf",
+    "type": "Small Car",
+    "price_per_day": 72.72,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 40,
+    "model": "Seat Ibiza",
+    "type": "Small Car",
+    "price_per_day": 67.7,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Green Motion",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 41,
+    "model": "Honda Civic",
+    "type": "Small Car",
+    "price_per_day": 87.81,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Car Gliny",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 42,
+    "model": "Mini Cooper",
+    "type": "Luxury",
+    "price_per_day": 70.12,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 43,
+    "model": "Renault Clio",
+    "type": "Economy",
+    "price_per_day": 123.42,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Car Gliny",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 44,
+    "model": "Skoda Octavia",
+    "type": "Small Car",
+    "price_per_day": 144.66,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Car Gliny",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 45,
+    "model": "Honda Civic",
+    "type": "Small Car",
+    "price_per_day": 89.34,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 46,
+    "model": "Kia Sportage",
+    "type": "Small Car",
+    "price_per_day": 79.56,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 47,
+    "model": "Jeep Compass",
+    "type": "Compact",
+    "price_per_day": 152.12,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 48,
+    "model": "Peugeot 208",
+    "type": "Economy",
+    "price_per_day": 83.65,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 49,
+    "model": "Honda Civic",
+    "type": "Luxury",
+    "price_per_day": 110.24,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Abby Cars",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 50,
+    "model": "BMW X1",
+    "type": "SUV",
+    "price_per_day": 54.64,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 51,
+    "model": "Toyota Corolla",
+    "type": "Economy",
+    "price_per_day": 107.64,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 52,
+    "model": "Ford Fiesta",
+    "type": "Premium",
+    "price_per_day": 136.14,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 800,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 53,
+    "model": "Skoda Octavia",
+    "type": "SUV",
+    "price_per_day": 88.83,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 54,
+    "model": "Fiat Panda",
+    "type": "SUV",
+    "price_per_day": 66.51,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 55,
+    "model": "Volvo XC40",
+    "type": "Small Car",
+    "price_per_day": 100.21,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Green Motion",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 56,
+    "model": "Kia Sportage",
+    "type": "Compact",
+    "price_per_day": 112.04,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 57,
+    "model": "Toyota Corolla",
+    "type": "Premium",
+    "price_per_day": 78.11,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 58,
+    "model": "Kia Sportage",
+    "type": "Premium",
+    "price_per_day": 81.0,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 59,
+    "model": "Ford Fiesta",
+    "type": "Luxury",
+    "price_per_day": 153.21,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Car Gliny",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 60,
+    "model": "Volvo XC40",
+    "type": "Premium",
+    "price_per_day": 79.33,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Green Motion",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 61,
+    "model": "Mini Cooper",
+    "type": "Premium",
+    "price_per_day": 128.56,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Green Motion",
+    "deposit": 800,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 62,
+    "model": "Audi Q3",
+    "type": "SUV",
+    "price_per_day": 154.06,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 63,
+    "model": "Ford Fiesta",
+    "type": "Economy",
+    "price_per_day": 103.57,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 64,
+    "model": "Mini Cooper",
+    "type": "Luxury",
+    "price_per_day": 51.69,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Euro Car",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 65,
+    "model": "Suzuki Swift",
+    "type": "Premium",
+    "price_per_day": 75.85,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 66,
+    "model": "Volvo XC40",
+    "type": "Compact",
+    "price_per_day": 47.34,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 67,
+    "model": "Peugeot 208",
+    "type": "Economy",
+    "price_per_day": 129.02,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 68,
+    "model": "Kia Sportage",
+    "type": "Economy",
+    "price_per_day": 162.46,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Flex Ways",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 69,
+    "model": "Skoda Octavia",
+    "type": "Compact",
+    "price_per_day": 138.76,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Flex Ways",
+    "deposit": 400,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 70,
+    "model": "Renault Clio",
+    "type": "Premium",
+    "price_per_day": 165.55,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 71,
+    "model": "Kia Sportage",
+    "type": "Compact",
+    "price_per_day": 77.85,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 72,
+    "model": "Audi Q3",
+    "type": "Economy",
+    "price_per_day": 104.35,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 73,
+    "model": "Skoda Octavia",
+    "type": "SUV",
+    "price_per_day": 53.8,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 74,
+    "model": "Volvo XC40",
+    "type": "Economy",
+    "price_per_day": 50.23,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 75,
+    "model": "Suzuki Swift",
+    "type": "Compact",
+    "price_per_day": 162.63,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Green Motion",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 76,
+    "model": "Skoda Octavia",
+    "type": "Luxury",
+    "price_per_day": 158.93,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 77,
+    "model": "Mini Cooper",
+    "type": "SUV",
+    "price_per_day": 143.62,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Flex Ways",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 78,
+    "model": "Mercedes A-Class",
+    "type": "Compact",
+    "price_per_day": 102.99,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 79,
+    "model": "Hyundai i10",
+    "type": "Small Car",
+    "price_per_day": 154.88,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 80,
+    "model": "Hyundai i10",
+    "type": "Luxury",
+    "price_per_day": 73.52,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Auto Union",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 81,
+    "model": "Peugeot 208",
+    "type": "Luxury",
+    "price_per_day": 177.53,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Green Motion",
+    "deposit": 800,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 82,
+    "model": "Seat Ibiza",
+    "type": "SUV",
+    "price_per_day": 57.58,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Ok Mobility",
+    "deposit": 2000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 83,
+    "model": "Fiat Panda",
+    "type": "Economy",
+    "price_per_day": 133.1,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "U-Save",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 84,
+    "model": "Hyundai i10",
+    "type": "Premium",
+    "price_per_day": 112.79,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 85,
+    "model": "Audi Q3",
+    "type": "Small Car",
+    "price_per_day": 57.81,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Green Motion",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 86,
+    "model": "Seat Ibiza",
+    "type": "SUV",
+    "price_per_day": 72.0,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 400,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 87,
+    "model": "Ford Fiesta",
+    "type": "Economy",
+    "price_per_day": 163.44,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Car Gliny",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 88,
+    "model": "Fiat Panda",
+    "type": "Small Car",
+    "price_per_day": 84.78,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Green Motion",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 89,
+    "model": "Toyota Corolla",
+    "type": "Economy",
+    "price_per_day": 147.9,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 90,
+    "model": "Renault Clio",
+    "type": "Compact",
+    "price_per_day": 94.55,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 91,
+    "model": "Audi Q3",
+    "type": "Small Car",
+    "price_per_day": 147.56,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Flex Ways",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 92,
+    "model": "Mini Cooper",
+    "type": "Small Car",
+    "price_per_day": 66.1,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Car Gliny",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 93,
+    "model": "BMW X1",
+    "type": "Compact",
+    "price_per_day": 56.31,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 4,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 94,
+    "model": "Kia Sportage",
+    "type": "Compact",
+    "price_per_day": 53.04,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 95,
+    "model": "Mercedes A-Class",
+    "type": "Economy",
+    "price_per_day": 93.41,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Abby Cars",
+    "deposit": 400,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 96,
+    "model": "Kia Sportage",
+    "type": "Compact",
+    "price_per_day": 73.92,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 7,
+    "rental_conditions": [
+      "Free Cancellation",
+      "Full Insurance"
+    ],
+    "company": "Smart Mobility",
+    "deposit": 800,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 97,
+    "model": "Suzuki Swift",
+    "type": "Compact",
+    "price_per_day": 166.49,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Free Cancellation"
+    ],
+    "company": "Auto Union",
+    "deposit": 400,
+    "cards_accepted": [
+      "Visa Credit",
+      "Master Credit"
+    ]
+  },
+  {
+    "id": 98,
+    "model": "BMW X1",
+    "type": "Small Car",
+    "price_per_day": 179.09,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 5,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "Euro Car",
+    "deposit": 1000,
+    "cards_accepted": [
+      "Visa Credit",
+      "Visa Debit"
+    ]
+  },
+  {
+    "id": 99,
+    "model": "Jeep Compass",
+    "type": "Compact",
+    "price_per_day": 161.94,
+    "currency": "EUR",
+    "transmission": "Automatic",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 600,
+    "cards_accepted": [
+      "Visa Debit",
+      "Master Debit"
+    ]
+  },
+  {
+    "id": 100,
+    "model": "Fiat Panda",
+    "type": "Compact",
+    "price_per_day": 126.91,
+    "currency": "EUR",
+    "transmission": "Manual",
+    "air_conditioning": true,
+    "seats": 2,
+    "rental_conditions": [
+      "Theft Protection",
+      "Full Insurance"
+    ],
+    "company": "City Go Rentals",
+    "deposit": 1500,
+    "cards_accepted": [
+      "Master Credit",
+      "Master Debit"
+    ]
+  }
+]
