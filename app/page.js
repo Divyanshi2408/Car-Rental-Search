@@ -61,7 +61,11 @@ if (filters.seats.length && !filters.seats.some(s => car.seats >= s)) return fal
 
       <main className="max-w-7xl mx-auto py-6 grid grid-cols-12 gap-6">
         <aside className="col-span-12 lg:col-span-3">
-          <FiltersSidebar filters={filters} setFilters={setFilters} />
+          <FiltersSidebar
+  filters={filters}
+  setFilters={setFilters}
+  resultsCount={filteredCars.length} // pass dynamic count
+/>
         </aside>
 
         <section className="col-span-12 lg:col-span-9">

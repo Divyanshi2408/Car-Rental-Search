@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function FiltersSidebar({ filters, setFilters }) {
+export default function FiltersSidebar({ filters, setFilters,resultsCount  }) {
   const [expandedSections, setExpandedSections] = useState({
     transmission: true,
     deposit: true,
@@ -139,31 +139,31 @@ const cardsRanges = [
   return (
     <aside className="w-full max-w-[455px] flex flex-col gap-[53px] font-lexend">
       {/* ================= Map Block ================= */}
-      <div className="w-full h-[248.3px] flex flex-col gap-[10px] overflow-hidden rounded-lg">
-        <div className="relative w-full h-full overflow-hidden rounded-lg">
-          <img
-            src="/map.png"
-            alt="map"
-            className="w-full h-full object-cover"
-          />
-          <button
-            className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[320px] h-[80px] flex items-center justify-center gap-4 bg-[#0066b2] text-white rounded-lg font-bold"
-            style={{
-              fontFamily: "Lexend Deca",
-              fontSize: "19.2px",
-              lineHeight: "14.8px",
-            }}
-          >
-            Show on map
-          </button>
-        </div>
-      </div>
+<div className="w-full h-[248.3px] flex flex-col gap-[10px] overflow-hidden rounded-lg relative">
+  <img
+    src="/map.png"
+    alt="map"
+    className="w-full h-full object-cover"
+  />
+  <button
+    className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[320px] h-[80px] flex items-center justify-center gap-4 bg-[#0066b2] text-white rounded-lg font-bold"
+    style={{
+      fontFamily: "Lexend Deca",
+      fontSize: "19.2px",
+      lineHeight: "19.2px", 
+      boxSizing: "border-box", 
+    }}
+  >
+    Show on map
+  </button>
+</div>
+
 
       {/* ================= Filters Block ================= */}
       <div className="bg-white rounded-lg p-6 space-y-6">
         <div className="flex items-center justify-between">
-          <span className="font-medium">
-            {filters.resultsCount ?? "51"} Results
+         <span className="font-medium">
+            {resultsCount} Results 
           </span>
           <button
             onClick={() =>
@@ -223,12 +223,80 @@ const cardsRanges = [
         </div>
 
         {/* Transmission */}
-        <div>
+      <div>
+  <div
+    className="flex items-center justify-between mb-3 cursor-pointer"
+    onClick={() => toggleSection("transmission")}
+  >
+    <h3 className="font-semibold">Transmission</h3>
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={`transition-transform duration-300 ${
+        expandedSections.transmission ? "rotate-180" : "rotate-0"
+      }`}
+    >
+      <path
+        d="M6 9l6 6 6-6"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </div>
+
+  {expandedSections.transmission && (
+    <div className="space-y-2">
+      {/* Select All / Deselect All */}
+      <label className="flex items-center gap-2 cursor-pointer font-medium">
+        <input
+          type="checkbox"
+          className="w-4 h-4"
+          checked={
+            filters.transmission.length === ["Automatic", "Manual"].length
+          }
+          onChange={() => {
+            if (filters.transmission.length === ["Automatic", "Manual"].length) {
+              // Deselect all
+              setFilters((prev) => ({ ...prev, transmission: [] }));
+            } else {
+              // Select all
+              setFilters((prev) => ({
+                ...prev,
+                transmission: ["Automatic", "Manual"],
+              }));
+            }
+          }}
+        />
+        <span className="text-sm">All</span>
+      </label>
+
+      {["Automatic", "Manual"].map((t) => (
+        <label key={t} className="flex items-center gap-2 cursor-pointer">
+          <input
+            type="checkbox"
+            className="w-4 h-4"
+            checked={filters.transmission.includes(t)}
+            onChange={() => toggleFilter("transmission", t)}
+          />
+          <span className="text-sm">{t}</span>
+        </label>
+      ))}
+    </div>
+  )}
+</div>
+
+
+  <div>
           <div
             className="flex items-center justify-between mb-3 cursor-pointer"
-            onClick={() => toggleSection("transmission")}
+            onClick={() => toggleSection("cards")}
           >
-            <h3 className="font-semibold">Transmission</h3>
+            <h3 className="font-semibold">Cards Accepted at pickup for deposit</h3>
             <svg
               width="16"
               height="16"
@@ -236,7 +304,7 @@ const cardsRanges = [
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               className={`transition-transform duration-300 ${
-                expandedSections.transmission ? "rotate-180" : "rotate-0"
+                expandedSections.cards ? "rotate-180" : "rotate-0"
               }`}
             >
               <path
@@ -248,27 +316,25 @@ const cardsRanges = [
               />
             </svg>
           </div>
-          {expandedSections.transmission && (
+          {expandedSections.cards && (
             <div className="space-y-2">
-              {["Automatic", "Manual"].map((t) => (
+              {cardsRanges.map((c) => (
                 <label
-                  key={t}
+                  key={c.value}
                   className="flex items-center gap-2 cursor-pointer"
                 >
                   <input
                     type="checkbox"
                     className="w-4 h-4"
-                    checked={filters.transmission.includes(t)}
-                    onChange={() => toggleFilter("transmission", t)}
+                    checked={filters.cards.includes(c.value)}
+                    onChange={() => toggleFilter("cards", c.value)}
                   />
-                  <span className="text-sm">{t}</span>
+                  <span className="text-sm">{c.label}</span>
                 </label>
               ))}
             </div>
           )}
         </div>
-
-
 
         {/* Deposit */}
         <div>

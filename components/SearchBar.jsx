@@ -1,23 +1,3 @@
-// export default function SearchBar() {
-//   return (
-//     <div className="bg-white shadow-sm">
-//       <div className="max-w-7xl mx-auto px-4 py-4 flex flex-wrap gap-3 items-center">
-//         <input
-//           className="border rounded px-3 py-2 flex-1 min-w-[220px]"
-//           placeholder="Pick-up Location"
-//         />
-//         <input type="date" className="border rounded px-3 py-2" />
-//         <input type="date" className="border rounded px-3 py-2" />
-
-//         <button className="bg-[#0066b2] text-white w-10 h-10 rounded-full flex items-center justify-center">
-//           🔍
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
-
-
 export default function SearchBar() {
   return (
     
