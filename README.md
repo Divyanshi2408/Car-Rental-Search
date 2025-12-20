@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Rental Search Results Page
 
-## Getting Started
+A fully responsive **Car Rental Search Results Page** built with **Next.js (App Router)** and **Tailwind CSS**, replicating a Figma-based UI.  
+The app supports **real-time client-side filtering**, **skeleton loading**, and a **mobile-friendly filter drawer**.
 
-First, run the development server:
+**Live Demo:** https://car-rental-search-azure.vercel.app/  
+**GitHub Repo:** https://github.com/Divyanshi2408/Car-Rental-Search
+
+---
+## Screenshot
+
+<img width="1366" height="1372" alt="Image" src="https://github.com/user-attachments/assets/3220721d-1879-4427-86a8-b2009352ca2f" />
+
+---
+
+## Features
+
+- Figma-accurate UI layout
+- Real-time filtering (no page reload)
+- Skeleton loaders for better UX
+- Fully responsive (Desktop / Tablet / Mobile)
+- Mobile filter drawer 
+- Clean component-based architecture
+- Deployed on Vercel
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js 
+- **Language:** JavaScript
+- **Styling:** Tailwind CSS
+- **State Management:** React `useState`, `useEffect`
+- **Data Source:** Local mock JSON
+- **Deployment:** Vercel
+- **Version Control:** GitHub
+
+---
+
+## Project Structure
+
+```
+car-rental-search/
+├── app/
+│ ├── layout.js
+│ └── page.js
+│
+├── components/
+│ ├── Header.jsx
+│ ├── SearchBar.jsx
+│ ├── FiltersSidebar.jsx
+│ ├── ResultsGrid.jsx
+│ ├── CarCard.jsx
+│ ├── CarIcons.js
+│ ├── SkeletonCard.jsx
+│ ├── SearchBarSkeleton.jsx
+│ └── FiltersSidebarSkeleton.jsx
+│
+├── data/
+│ └── cars.json
+│
+├── public/
+│ └── images
+│
+├── README.md
+
+```
+## Filters Implemented (Real-Time)
+
+All filters work **client-side** and update results **instantly** without any page reload.
+
+- **Car Type** (multi-select)
+- **Passengers** (filters cars with seats ≥ selected value)
+- **Transmission** (Automatic / Manual)
+- **Deposit Range**
+- **Cards Accepted at Pickup**
+- **Rental Company**
+- **Clear Filters** (resets all filters and restores full results)
+
+UI state always reflects active filters  
+Filtering happens in real-time (no reload)
+
+---
+
+## Loading & UX
+
+- Skeleton loaders shown during initial data load
+- Smooth slide-in / slide-out transitions for the mobile filter drawer
+- Clean **empty state** displayed when no cars match the selected filters
+- Readable and well-spaced car card layout for better user experience
+
+---
+
+## Getting Started Locally
+
+Follow these steps to run the project on your local machine:
 
 ```bash
+# Clone the repository
+git clone https://github.com/Divyanshi2408/Car-Rental-Search.git
+
+# Navigate into the project directory
+cd car-rental-search
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open **http://localhost:3000** in your browser to view the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Filter Logic (Short Explanation)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- All filters are stored in a single `filters` state object
+- Cars are filtered using JavaScript `Array.filter()`
+- Each filter condition returns `false` when a car does not match
+- Results update instantly when the filter state changes
+- **Clear Filters** resets the filter state to its default values
 
-## Learn More
+This approach keeps the logic **simple, readable, and performant**.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+- [divyanshipal2808@gmail.com]
+- https://www.linkedin.com/in/divyanshi-pal/
