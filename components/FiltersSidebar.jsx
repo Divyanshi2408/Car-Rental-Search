@@ -43,7 +43,7 @@ const cardsRanges = [
     "Abby",
     "Auto Union",
     "Car Ginny",
-    "Europ Car",
+    "Euro Car",
     "Flex Ways",
     "Green Motion",
     "OK Mobility",
@@ -111,7 +111,7 @@ const cardsRanges = [
 
         {/* Car Type */}
         <div>
-          <h3 className="font-semibold mb-3 text-[12px]">Car Type</h3>
+          <h3 className="font-semibold mb-3">Car Type</h3>
           <div className="flex flex-wrap gap-2">
             {Object.keys(carIcons).map((type) => (
               <button
@@ -155,7 +155,7 @@ const cardsRanges = [
     className="flex items-center justify-between mb-3 cursor-pointer"
     onClick={() => toggleSection("transmission")}
   >
-    <h3 className="font-semibold">Transmission</h3>
+    <h3 className="font-semibold mb-3">Transmission</h3>
     <svg
       width="16"
       height="16"
@@ -223,7 +223,7 @@ const cardsRanges = [
             className="flex items-center justify-between mb-3 cursor-pointer"
             onClick={() => toggleSection("cards")}
           >
-            <h3 className="font-semibold">Cards Accepted at pickup for deposit</h3>
+            <h3 className="font-semibold mb-3">Cards Accepted at pickup for deposit</h3>
             <svg
               width="16"
               height="16"
@@ -269,7 +269,7 @@ const cardsRanges = [
             className="flex items-center justify-between mb-3 cursor-pointer"
             onClick={() => toggleSection("deposit")}
           >
-            <h3 className="font-semibold">Deposit</h3>
+            <h3 className="font-semibold mb-3">Deposit</h3>
             <svg
               width="16"
               height="16"
@@ -315,7 +315,7 @@ const cardsRanges = [
             className="flex items-center justify-between mb-3 cursor-pointer"
             onClick={() => toggleSection("rentalCompany")}
           >
-            <h3 className="font-semibold">Rental Company</h3>
+            <h3 className="font-semibold mb-3">Rental Company</h3>
             <svg
               width="16"
               height="16"

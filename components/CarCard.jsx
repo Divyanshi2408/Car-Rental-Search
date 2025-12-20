@@ -8,6 +8,10 @@ import {
 } from "lucide-react";
 
 export default function CarCard({ car }) {
+
+const originalPrice = (car.price_per_day * 1.2).toFixed(2);
+const discountedPrice = (car.price_per_day * 1.1).toFixed(2); 
+
   return (
     <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-5 font-lexend">
       <div>
@@ -67,10 +71,10 @@ export default function CarCard({ car }) {
         {/* Price */}
         <div>
           <div className="text-red-600 text-sm line-through">
-            {car.originalPrice} 77.50  €
+           {originalPrice} €
           </div>
           <div className="text-2xl sm:text-3xl font-bold text-gray-900">
-            {car.price} 59.50 €
+           {discountedPrice} €
           </div>
           <p className="text-xs text-gray-500 mt-1">
             Price per day: {car.price_per_day} €

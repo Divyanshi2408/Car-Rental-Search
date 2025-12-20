@@ -35,7 +35,7 @@ export default function FiltersSidebarSkeleton() {
     {Object.keys(carIcons).map((type) => (
       <div
         key={type}
-        className="px-4 py-2 rounded-full text-[12px] flex items-center gap-2 border border-gray-300 bg-white"
+        className="px-4 py-2 rounded-full text-sm flex items-center gap-2 border border-gray-300 bg-white"
       >
         <span className="text-black">{carIcons[type]}</span>
     
