@@ -28,10 +28,9 @@ export default function Home() {
 
   const filteredCars = carsData.filter((car) => {
     if (filters.carType.length && !filters.carType.includes(car.type)) return false;
-// Exact match
+
 if (filters.seats.length && !filters.seats.includes(car.seats)) return false;
 
-// OR minimum seats match (your previous logic)
 if (filters.seats.length && !filters.seats.some((s) => car.seats >= s)) return false;
 
     if (filters.transmission.length && !filters.transmission.includes(car.transmission)) return false;
@@ -59,7 +58,7 @@ if (filters.seats.length && !filters.seats.some((s) => car.seats >= s)) return f
         <div className="lg:hidden mb-4">
           <button
             onClick={() => setIsSidebarOpen(true)}
-            className="px-4 py-2 bg-blue-600 text-white rounded"
+            className="px-4 py-2 bg-[#0174b7] text-white rounded"
           >
             Filters
           </button>
@@ -78,7 +77,7 @@ if (filters.seats.length && !filters.seats.some((s) => car.seats >= s)) return f
 
         <aside
           className={`bg-white p-6 z-50 lg:static lg:w-auto lg:p-0 lg:col-span-3 fixed top-0 left-0 h-full overflow-y-auto transform transition-transform duration-300 ${
-            isSidebarOpen ? "w-100 translate-x-0" : "w-72 -translate-x-full"
+            isSidebarOpen ? "w-90 translate-x-0" : "w-72 -translate-x-full"
           } lg:translate-x-0`}
         >
 
