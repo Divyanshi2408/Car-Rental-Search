@@ -2,45 +2,53 @@ export default function SearchBarSkeleton() {
   return (
     <div className="max-w-7xl mx-auto py-6">
 
-      {/* 🔹 REAL TOP LOADING HEADER (NO SKELETON) */}
-      <div className="bg-white rounded-2xl shadow-md p-6 mb-6">
+      {/*  REAL TOP LOADING HEADER (NO SKELETON) */}
+<div className="bg-white rounded-2xl shadow-md p-6 mb-6">
 
-        {/* Logos */}
-        <div className="flex items-center justify-center gap-6 mb-4">
-          <div className="w-16 h-16 rounded-full bg-white shadow flex items-center justify-center">
-            <img src="/flexways.webp" alt="Flexways" className="h-6" />
-          </div>
+  {/* LOGOS aligned with text + progress */}
+  <div className="max-w-4xl mx-auto mb-6">
+    <div className="flex items-center justify-between">
 
-          <div className="w-16 h-16 rounded-full bg-white shadow flex items-center justify-center">
-            <img src="/flexways.webp" alt="Flexways" className="h-6" />
-          </div>
-
-          <div className="w-20 h-20 rounded-full bg-white shadow-lg flex items-center justify-center">
-            <img src="/sixt.png" alt="Sixt" className="h-8" />
-          </div>
-
-          <div className="w-16 h-16 rounded-full bg-white shadow flex items-center justify-center">
-            <img src="/flexways.webp" alt="Flexways" className="h-6" />
-          </div>
-
-          <div className="w-16 h-16 rounded-full bg-white shadow flex items-center justify-center">
-            <img src="/flexways.webp" alt="Flexways" className="h-6" />
-          </div>
-        </div>
-
-        {/* Text + Progress */}
-        <div className="flex items-center gap-4">
-          <p className="text-sm font-medium text-gray-700 whitespace-nowrap">
-            Finding The Perfect Ride For You...
-          </p>
-
-          <div className="flex-1 h-3 bg-gray-300 rounded-full overflow-hidden">
-            <div className="h-full w-2/3 bg-blue-600 rounded-full transition-all duration-500" />
-          </div>
-        </div>
+      {/* Logo */}
+      <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white shadow-lg flex items-center justify-center">
+        <img src="/flexways.webp" alt="Flexways" className="h-5 sm:h-6 md:h-7" />
       </div>
 
-      {/* 🔹 SEARCH BAR SKELETON */}
+      <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white shadow-lg flex items-center justify-center">
+        <img src="/flexways.webp" alt="Flexways" className="h-5 sm:h-6 md:h-7" />
+      </div>
+
+      {/* Center logo (bigger) */}
+      <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full bg-white shadow-xl flex items-center justify-center">
+        <img src="/sixt.png" alt="Sixt" className="h-7 sm:h-8 md:h-10" />
+      </div>
+
+      <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white shadow-lg flex items-center justify-center">
+        <img src="/flexways.webp" alt="Flexways" className="h-5 sm:h-6 md:h-7" />
+      </div>
+
+      <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white shadow-lg flex items-center justify-center">
+        <img src="/flexways.webp" alt="Flexways" className="h-5 sm:h-6 md:h-7" />
+      </div>
+
+    </div>
+  </div>
+
+  {/* TEXT + PROGRESS (same width as logos) */}
+  <div className="max-w-4xl mx-auto flex items-center gap-4">
+    <p className="text-sm font-semibold text-gray-800 whitespace-nowrap">
+      Finding The Perfect Ride For You...
+    </p>
+
+    <div className="flex-1 h-3 bg-gray-300 rounded-full overflow-hidden">
+      <div className="h-full w-[60%] bg-blue-700 rounded-full transition-all duration-500" />
+    </div>
+  </div>
+
+</div>
+
+
+      {/*  SEARCH BAR SKELETON */}
       <div className="bg-white rounded-full shadow-lg flex items-center px-6 py-4 animate-pulse">
 
         {/* Pick-up Location */}
@@ -54,8 +62,12 @@ export default function SearchBarSkeleton() {
           <div className="h-4 bg-gray-200 rounded w-24 mb-2" />
           <div className="flex items-center gap-2">
             <div className="h-4 bg-gray-200 rounded w-28" />
-            <div className="h-4 w-4 bg-gray-200 rounded" />
-            <div className="h-4 w-4 bg-gray-200 rounded" />
+ <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+               <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
           </div>
         </div>
 
@@ -64,15 +76,23 @@ export default function SearchBarSkeleton() {
           <div className="h-4 bg-gray-200 rounded w-28 mb-2" />
           <div className="flex items-center gap-2">
             <div className="h-4 bg-gray-200 rounded w-28" />
-            <div className="h-4 w-4 bg-gray-200 rounded" />
-            <div className="h-4 w-4 bg-gray-200 rounded" />
+ <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+               <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
           </div>
         </div>
 
         {/* Search Button */}
-        <div className="ml-4 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-          <div className="w-5 h-5 bg-white/70 rounded" />
-        </div>
+          <div className="flex justify-end">
+            <button className="bg-[#0174b7] hover:bg-blue-700 text-white rounded-full w-14 h-14 flex items-center justify-center transition-colors">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+          </div>
       </div>
     </div>
   );

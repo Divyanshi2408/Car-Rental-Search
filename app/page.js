@@ -90,7 +90,7 @@ export default function Home() {
     <>
       <Header />
 
-      <main className="max-w-7xl mx-auto py-6 grid grid-cols-12 gap-6">
+      <main className="mx-auto p-6 grid grid-cols-12 gap-6">
         {/* Sidebar */}
         <aside className="col-span-12 lg:col-span-3">
           {loading ? (
